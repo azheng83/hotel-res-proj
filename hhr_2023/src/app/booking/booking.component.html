@@ -1,1 +1,41 @@
-<p>booking works!</p>
+<div class="booking-window"> 
+    <label for ="booking"> {{bookNextStay}} </label> 
+    <form>
+      <div id ="name-div">
+        <label for="name"> {{name}} </label>
+        <input type="name" id="name;" name="name" required>
+      </div>
+      <div id="email-div">
+        <label for="email"> {{email}} </label>
+        <input type="email" id="email;" name="email" required>
+      </div>
+      <div id ="telnumber-div">
+        <label for="tel"> {{telNumber}} </label>
+        <input type="tel" id="tel;" name="tel" required>
+      </div>
+      <div id = "checkin-div">
+        <label for="checkin"> {{checkIn}} </label>
+        <input type="date" id="checkin" name="checkin" required>
+      </div>
+      
+      <div id = "checkout-div">
+        <label for="checkout"> {{checkOut}} </label>
+        <input type="date" id="checkout" name="checkout" required>
+      </div>
+      
+      <div id = "numguests-div">
+        <label for="guests"> {{numOfGuests}} </label>
+        <input type="number" id="guests" name="guests" required>
+      </div>
+      
+      <div class="room-div">
+        <label for="room-type"> {{roomType}} </label>
+        <select id="room-type" name="room-type" required>
+          <option value="single">Single Room</option>
+          <option value="double">Double Room</option>
+          <option value="honey-moon">Honey-Moon Room</option>
+        </select>
+      </div>
+    </form>
+    <div class="button_slide slide_right">Confirm Your Stay</div>
+  </div>
