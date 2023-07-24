@@ -1,0 +1,11 @@
+.booking-window {
+    margin-bottom: 50px;
+}
+
+.home {
+    display: flex;
+    background-image: url("https://www.ourescapeclause.com/wp-content/uploads/2022/06/shutterstock_427311073-scaled.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

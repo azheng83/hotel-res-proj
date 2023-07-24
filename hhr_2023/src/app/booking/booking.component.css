@@ -1,16 +1,21 @@
 .booking-window {
-    width: 25%; 
-    padding: 10px;
-    border-radius: 5px;
-    margin-left: auto; 
-    padding-right: 50px;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  display: inline-block;
+  margin-bottom: 100px;
+  margin-left: 1100px;
+  padding:10px;
+  padding-right: 20px;
+  position: relative;
+  width: 25%;
   }
-.booking-container {
-    display: flex;
-    justify-content: flex-end;
-  }
+
+#booking-title {
+  font-size: 30px;
+}
+
 .form-group {
-    margin-bottom: 10px;
     font-family: 'Switzer-Extralight'; 
   }
  
