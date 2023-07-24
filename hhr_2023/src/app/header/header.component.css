@@ -1,0 +1,15 @@
+.name {
+    position:fixed; left: 25px; top: 15px; 
+    font-size: 20px; 
+    font-style: italic; 
+    }
+ 
+
+nav {     
+    position: fixed; right: 25px; top: 15px;  
+    font-size: 17px; 
+    }
+.link {
+    text-decoration: none;
+    padding: 4px 19px; 
+}
