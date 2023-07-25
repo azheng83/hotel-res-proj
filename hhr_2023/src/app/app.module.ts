@@ -24,12 +24,12 @@ import { BookingComponent } from './booking/booking.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      {path: 'home', component: HomeComponent}, 
-      {path: 'rooms', component: RoomsComponent}, 
+      {path: 'home', component: HomeComponent},
+      {path: 'rooms', component: RoomsComponent},
       {path: 'aboutus', component: AboutUsComponent},
-      {path: 'contact', component: ContactComponent}, 
-      {path: '**', component: PageNotFoundComponent}, 
-      {path: '', redirectTo: '/home', pathMatch: 'full'}
+      {path: 'contact', component: ContactComponent},
+      // {path: '**', component: PageNotFoundComponent},
+      // {path: '', redirectTo: '/home', pathMatch: 'full'},
     ])
   ],
   providers: [],

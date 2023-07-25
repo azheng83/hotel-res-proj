@@ -1,6 +1,46 @@
-.home-wide h1, p, a {
+.home-wide h1 {
+    font-size: 40px;
+}
+
+.home-wide {
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    position: relative;
+}
+
+.booking-component {
+    z-index: 1;
+    display: flex;
+    background-attachment: fixed;
+    background-image: url("https://www.ourescapeclause.com/wp-content/uploads/2022/06/shutterstock_427311073-scaled.jpg");
+    background-position: center;
+    background-size: 100%;
+}
+
+.header-component {
+    z-index: 2;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.text {
+    position: relative;
+    top: 250px;
+}
+
+#heading-text {
+    left: 500px;
+}
+
+#link-text {
     color: white;
 }
+
+.home-wide p, a {
+    font-size: 18px;
+    margin-left: 250px;
+}
+
 
 
 

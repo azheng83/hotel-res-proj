@@ -11,26 +11,30 @@
   width: 25%;
   }
 
-#booking-title {
-  font-size: 30px;
-}
-
 .form-group {
-    font-family: 'Switzer-Extralight'; 
+    font-family: "Work Sans", sans-serif;
+    background-color: white;
   }
  
 label {
+    font-size: 12px;
     font-weight: bold;
-    font-family: 'Switzer-Extralight';   
+    font-family: "Work Sans", sans-serif; 
   }
+
+label[for="booking"] {
+    font-size: 18px;
+  }
+
 input, select {
     width: 100%;
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 3px;
-    font-family:'Switzer-Extralight';
+    font-family: "Work Sans", sans-serif;
     
   } 
+
  button {
     padding: 12.5px 30px;
     border: 0;
@@ -58,7 +62,7 @@ button:active {
     border-radius: 0px;
     padding: 18px 36px;
     display: inline-block;
-    font-family: 'Switzer-MediumItalic';
+    font-family: "Work Sans", sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
     cursor: pointer;
