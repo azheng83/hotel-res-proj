@@ -6,28 +6,42 @@
     </div>
 
       <form class="form-group">
+          <div id="name-label">
           <label for="name"> {{name}} </label>
           <input type="name" id="name;" name="name" required>
+          </div>
 
+          <div id="email-label">
           <label for="email"> {{email}} </label>
           <input type="email" id="email;" name="email" required>
+          </div>
 
+          <div id="tel-label">
           <label for="tel"> {{telNumber}} </label>
           <input type="tel" id="tel;" name="tel" required>
+          </div>
 
+          <div id="checkin-label">
           <label for="checkin"> {{checkIn}} </label>
           <input type="date" id="checkin" name="checkin" required>
+          </div>
       
+          <div id="checkout-label">
           <label for="checkout"> {{checkOut}} </label>
           <input type="date" id="checkout" name="checkout" required>
+          </div>
       
+          <div id="guests-label">
           <label for="guests"> {{numOfGuests}} </label> <!--Change to dropdown menu to click nums?-->
           <input type="number" id="guests" name="guests" required>
+          </div>
       
+          <div id="type-label">
           <label for="room-type"> {{roomType}} </label>
           <select id="room-type" name="room-type" required>
             <option *ngFor = "let room of rooms" [value] = "room">{{room}}</option>
           </select>
+          </div>
       </form>
 
     <div class="button_slide slide_right">Confirm Your Stay</div>

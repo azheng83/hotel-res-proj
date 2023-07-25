@@ -1,6 +1,6 @@
 .booking-window {
   align-items: center;
-  background-color: white;
+  background-color: #f8f0e3;
   border-radius: 12px;
   display: inline-block;
   margin-bottom: 100px;
@@ -13,8 +13,23 @@
 
 .form-group {
     font-family: "Work Sans", sans-serif;
-    background-color: white;
+    background-color: #f8f0e3;
+    padding: 12px;
   }
+
+#booking-title {
+  margin-left: 2px;
+}
+
+#name-label,
+#email-label,
+#tel-label,
+#checkin-label,
+#checkout-label,
+#guests-label,
+#type-label {
+  padding: 3px;
+}
  
 label {
     font-size: 12px;
@@ -36,8 +51,8 @@ input, select {
   } 
 
  button {
-    padding: 12.5px 30px;
     border: 0;
+    padding: 2px 2px;
     border-radius: 100px;
     background-color: #bfd7fd;
     color: #000000;
@@ -45,12 +60,12 @@ input, select {
     -webkit-transition: all 0.5s;
   }
 button:hover {
-    background-color: #6fc5ff;
-    box-shadow: 0 0 20px #6fc5ff50;
+    background-color:#615A56;
+    box-shadow: 0 0 20px black;
     transform: scale(1.1);
   }  
 button:active {
-    background-color: #3d94cf;
+    background-color: #615A56;
     transition: all 0.25s;
     -webkit-transition: all 0.25s;
     box-shadow: none;
@@ -58,9 +73,9 @@ button:active {
   }
   .button_slide {
     color: black;
-    border: 2px solid rgb(2, 155, 216);
-    border-radius: 0px;
-    padding: 18px 36px;
+    border: 1.8px solid black;
+    border-radius: 5px;
+    padding: 10px 14px;
     display: inline-block;
     font-family: "Work Sans", sans-serif;
     font-size: 14px;
@@ -70,9 +85,12 @@ button:active {
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 95px;
   }
   .slide_right:hover {
-    box-shadow: inset 400px 0 0 0 #028ad8;
+    box-shadow: inset 400px 0 0 0 #615A56;
   }
   #outer {
     width: 364px;
