@@ -1,0 +1,31 @@
+h2 {
+    text-align: center;
+    padding-top: 28px; 
+    font-style: italic; 
+}
+.abt-us {
+    margin-top: 75px;
+    background-color: #F8F0E3;
+
+}
+
+.l1 {
+    text-align: left;
+    width: 50%; 
+} 
+.r1 {
+    width: 50%; 
+}
+
+h3 {
+   text-align: center; 
+}
+
+.end {
+    text-align: center; 
+}
+.container {
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+}
