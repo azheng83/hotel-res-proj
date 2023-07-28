@@ -31,7 +31,7 @@ import { BookingComponent } from './booking/booking.component';
       {path: 'aboutus', component: AboutUsComponent},
       {path: 'contact', component: ContactComponent},
       // {path: '**', component: PageNotFoundComponent},
-      // {path: '', redirectTo: '/home', pathMatch: 'full'},
+      {path: '', redirectTo: '/home', pathMatch: 'full'},
     ])
   ],
   providers: [],
