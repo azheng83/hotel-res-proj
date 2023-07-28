@@ -28,8 +28,10 @@ import { BookingComponent } from './booking/booking.component';
     RouterModule.forRoot([
       {path: 'home', component: HomeComponent},
       {path: 'rooms', component: RoomsComponent},
+      {path: 'booking', component: BookingComponent},
       {path: 'aboutus', component: AboutUsComponent},
       {path: 'contact', component: ContactComponent},
+      
       // {path: '**', component: PageNotFoundComponent},
       // {path: '', redirectTo: '/home', pathMatch: 'full'},
     ])
