@@ -2,34 +2,23 @@
 <div class = "nav-bar">
 <router-outlet></router-outlet>
 <nav>
-    <a class = "name">Abode</a>
-    
-    <a class = "link"
-    routerLink= "/home"
-    routerLinkActive = "active-home"
-    ariaCurrentWhenActive="page">
-    Home 
-    </a>
+        <a class = "name">Abode</a>
         
-    <a class = "link"
-    routerLink = "/rooms"
-    routerLinkActive = "active-rooms"
-    ariaCurrentWhenActive="page"> 
-    Rooms
-    </a>
+        <a class = "link"
+        routerLink= "/home"
+        routerLinkActive = "active-home"
+        ariaCurrentWhenActive="page">
+        Home 
+        </a>
         
-    <a class = "link"
-    routerLink = "/aboutus"
-    routerLinkActive = "active-about-us"
-    ariaCurrentWhenActive = "page">
-    About Us 
-    </a>
-    
-    <a class = "link"
-    routerLink = "/contact"
-    routerLinkActive = "active-contact"
-    ariaCurrentWhenActive= "page">
-    Contact Us 
-    </a> 
+        <a id = "rooms-link" routerLink = "/rooms" routerLinkActive = "active-rooms" ariaCurrentWhenActive="page">Rooms</a>
+            
+        <a id = "about-link" routerLink = "/aboutus" routerLinkActive = "active-about-us" ariaCurrentWhenActive = "page">About Us</a>
+            
+        <a id = "contact-link" routerLink = "/contact" routerLinkActive = "active-contact" ariaCurrentWhenActive= "page">Contact Us</a> 
 </nav>
-</div>
+
+<!-- <router-outlet></router-outlet> -->
+
+
+
