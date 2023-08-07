@@ -1,41 +1,36 @@
 body {
-    z-index: 1;
+    display: flex;
     background-image: url("https://www.ourescapeclause.com/wp-content/uploads/2022/06/shutterstock_427311073-scaled.jpg");
     background-position: center;
-    background-repeat: no-repeat;
     overflow: hidden;
-    margin:0;
+    margin: 0;
     padding: 0;
+    height: 100vh;
+    font-family: "Work Sans", sans-serif;
 }
 
 .home-wide h1 {
-    font-size: 40px;
+    font-size: 5vw;
+    margin-bottom: 0vh;
 }
 
 .home-wide {
-    font-family: "Work Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: white;
-    position: relative;
+    margin-left: 10vw;
+    margin-bottom: 10vh;
 }
 
-.text {
-    position: relative;
-    top: 250px;
-}
-
-#heading-text {
-    left: 500px;
+.home-wide p, a {
+    font-size: 1.5vw;
+    padding: 0;
 }
 
 #link-text {
     color: white;
 }
-
-.home-wide p, a {
-    font-size: 18px;
-    margin-left: 250px;
-}
-
 
 
 
