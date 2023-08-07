@@ -2,8 +2,10 @@ body {
     z-index: 1;
     background-image: url("https://www.ourescapeclause.com/wp-content/uploads/2022/06/shutterstock_427311073-scaled.jpg");
     background-position: center;
-    background-size: 100%;
     background-repeat: no-repeat;
+    overflow: hidden;
+    margin:0;
+    padding: 0;
 }
 
 .home-wide h1 {

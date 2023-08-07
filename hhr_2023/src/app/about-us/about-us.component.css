@@ -3,17 +3,17 @@ h2 {
     padding-top: 28px; 
     font-style: italic; 
 }
-.abt-us {
+.about-us {
     margin-top: 75px;
     background-color: #F8F0E3;
 
 }
 
-.l1 {
+#body-1-descrip {
     text-align: left;
     width: 50%; 
 } 
-.r1 {
+#body-2-descrip {
     width: 50%; 
 }
 
