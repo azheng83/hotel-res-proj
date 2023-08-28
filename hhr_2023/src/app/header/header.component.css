@@ -1,17 +1,14 @@
-html,
-body {
-    margin: 0;
-}
 
 .nav-bar {
     display: flex;
     align-items: center;
     padding: 0px;
+    height: 4vh;
 }
 
 nav {  
     display: flex;
-    background-color: white;
+    background-color: #4767ab;
     font-family: "Work Sans", sans-serif; 
     text-align: center;
     align-items: center;
@@ -32,6 +29,7 @@ nav {
 }
 
 #name {
+    color: white;
     margin-left: .5vw;
     font-size: 30px; 
     font-style: italic; 
@@ -39,7 +37,7 @@ nav {
  
 #home-link, #rooms-link,
 #about-link, #contact-link, #booking-link {
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 20px 15px;
     margin-left: 40px;

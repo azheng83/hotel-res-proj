@@ -1,4 +1,67 @@
+.contact-descrip,
+.contact-form {
+    font-family: "Work Sans", sans-serif; 
+}
+
+#contact-para {
+    margin-top: 5vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    line-height: 4vh;
+}
+
 h3 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 3vh;
+    margin-top: 10vh;
+}
+
+.contact-form {
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#name-field {
+    display: flex;
+}
+
+input {
+    margin-left: 2vw;
+    border: black .12vw solid;
+    border-radius: 2vw;
+    padding: .5vw;
+    padding-left: 2vw;
+}
+
+#email-input, 
+#name-input {
+    padding: 1vh 8.5vw;
+    margin-bottom: 2vh;
+}
+
+#message-input {
+    padding: 6vh 8.5vw;
+}
+
+#email-title {
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+
+label {
+    margin-right: 15vw;
+}
+
+#sbmt-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Work Sans", sans-serif; ;
+    margin-top: 2vh;
+    border-radius: 1vw;
+    padding: 1vh 1.5vw;
+    background-color: white;
 }
