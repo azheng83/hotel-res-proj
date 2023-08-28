@@ -1,12 +1,29 @@
+html, 
+body {
+    margin: 0;
+}
+
 body {
     display: flex;
-    background-image: url("https://www.ourescapeclause.com/wp-content/uploads/2022/06/shutterstock_427311073-scaled.jpg");
+    background: url("https://wallpapercave.com/wp/wp4291590.jpg") no-repeat;
+    background-size: 100%;
     background-position: center;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
+    background-attachment: fixed;
     height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
     font-family: "Work Sans", sans-serif;
+}
+
+.home-wide {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
 }
 
 .home-wide h1 {
@@ -14,22 +31,19 @@ body {
     margin-bottom: 0vh;
 }
 
-.home-wide {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    margin-left: 10vw;
-    margin-bottom: 10vh;
-}
-
 .home-wide p, a {
-    font-size: 1.5vw;
-    padding: 0;
+    font-size: 1.8vw;
 }
 
-#link-text {
+.home-wide a {
     color: white;
+    font-size: 1.5vw;
+    text-decoration: none;
+    border-radius: 1vw;
+    border: .2vw solid #90a6c7;
+    padding: .8vw;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
