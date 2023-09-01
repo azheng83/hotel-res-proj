@@ -1,6 +1,17 @@
+
 .contact-descrip,
 .contact-form {
     font-family: "Work Sans", sans-serif; 
+}
+
+.contact-descrip {
+    margin-top: 15vh;
+}
+
+#contact-title {
+    font-size: 1.7vw;
+    font-weight: bolder;
+    font-style: italic;
 }
 
 #contact-para {
@@ -56,12 +67,16 @@ label {
 }
 
 #sbmt-btn {
+    font-size: 1.2vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Work Sans", sans-serif; ;
-    margin-top: 2vh;
+    font-family: "Work Sans", sans-serif; 
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    margin-left: 1vw;
     border-radius: 1vw;
     padding: 1vh 1.5vw;
     background-color: white;
+    border-color: black;
 }

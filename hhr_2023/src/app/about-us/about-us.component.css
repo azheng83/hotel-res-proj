@@ -1,31 +1,36 @@
+
 h2 {
     text-align: center;
     padding-top: 28px; 
     font-style: italic; 
 }
+
 .about-us {
-    margin-top: 75px;
-    background-color: #F8F0E3;
-
-}
-
-#body-1-descrip {
-    text-align: left;
-    width: 50%; 
-} 
-#body-2-descrip {
-    width: 50%; 
+    font-family: "Work Sans", sans-serif; 
+    background-color: white;
+    text-align: center;
+    line-height: 4vh;
+    margin-left: 13vw;
+    margin-right: 13vw;
+    margin-top: 10vh;
 }
 
 h3 {
    text-align: center; 
 }
 
-.end {
-    text-align: center; 
+h4 {
+    margin-top: 10vh;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large;
 }
-.container {
-    display:flex; 
-    justify-content: center;
-    align-items: center;
+
+#redirect-button {
+    font-size: large;
+    background-color: white;
+    border-radius: 2vw;
+    padding: 1vh 2vw;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
 }
