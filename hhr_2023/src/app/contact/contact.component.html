@@ -1,44 +1,47 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work Sans">
 
-<div class="contact-page-full">
-    <div class="contact-descrip">
-    <h3 id="contact-title">Get in Touch with Us</h3>
-    <p id="contact-para">Have any questions about our accommodations, event spaces, or special offers? Our dedicated team at Abode 
-        is here to assist you. Use our convenient contact form to reach out to us. Then, you can expect to hear from us soon— yes, it's really as simple as that. 
-        Whether you're planning a dream getaway, hosting an event, or simply seeking information, we're ready to provide personalized assistance. Fill out the form below and let us know
-        how we can make your stay exceptional. We can't wait to hear from you!</p>
+<div class="contact-descrip">
+<h3 id="contact-title">Get in Touch with Us</h3>
+<p id="contact-para">Have any questions about our accommodations, event spaces, or special offers? Our dedicated team at Swisshaven Lodgings 
+    is here to assist you. Use our convenient contact form to reach out to us. Then, you can expect to hear from us soon— yes, it's really as simple as that. 
+    Whether you're planning a dream getaway, hosting an event, or simply seeking information, we're ready to provide personalized assistance. Fill out the form below and let us know
+    how we can make your stay exceptional. We can't wait to hear from you!</p>
+</div>
+
+<form class = "contact-form">
+
+    <div id="name-title">
+        <label for = "full-name">Full Name:</label><br>
     </div>
 
-    <form class = "contact-form">
-
-        <div id="name-title">
-            <label for = "full-name">Full Name:</label><br>
+    <div class="name-container">
+        <div id = "first-field">
+            <input type = "text" name = "first-name" placeholder = "First" required>
         </div>
 
-        <div id = "name-field">
-            <input id = "first-field" type = "text" name = "first-name" placeholder = "First" required><br>
-            <input id = "last-field" type = "text" name = "last-name" placeholder = "Last" required>
+        <div id="last-field">
+            <input type = "text" name = "last-name" placeholder = "Last" required>
         </div>
-            
-        <div id="email-title">
-            <label id = "email-name" for = "email">Email address:</label><br>
-        </div>
-
-        <div id = "email-field">
-            <input id = "email-input" type = "email" name = "email" required>
-        </div>
-
-        <div id="message-title">
-            <label id = "message-name" for = "message">Message:</label><br>
-        </div>
-
-        <div id = "message-field">
-            <input id = "message-input" type = "text" name = "message" requried><br>
-        </div>
+    </div>
         
-        <button id = "sbmt-btn">Submit your Message</button>
-    </form>
-</div>
+    <div id="email-title">
+        <label id = "email-name" for = "email">Email address:</label><br>
+    </div>
+
+    <div id = "email-field">
+        <input id = "email-input" type = "email" name = "email" required>
+    </div>
+
+    <div id="message-title">
+        <label id = "message-name" for = "message">Message:</label><br>
+    </div>
+
+    <div id = "message-field">
+        <input id = "message-input" type = "text" name = "message" requried><br>
+    </div>
+    
+    <button id = "sbmt-btn">Submit your Message</button>
+</form>
 
 <!-- Full Name, Email, Message -->
 <!-- Must finish styling, add best practices as well --> 

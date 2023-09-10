@@ -1,22 +1,41 @@
-
 <div class = "nav-bar">
         <nav>
                 <div class="nav-name">
-                        <a id = "name">Abode</a>
+                        <a id = "name" routerLink= "/home" routerLinkActive = "active-home" ariaCurrentWhenActive="page">Swisshaven <br>Lodgings</a>
                 </div>
         
-        <a id = "home-link"
-        routerLink= "/home"
-        routerLinkActive = "active-home"
-        ariaCurrentWhenActive="page">
-        Home 
-        </a>
-        
-        <a id = "rooms-link" routerLink = "/rooms" routerLinkActive = "active-rooms" ariaCurrentWhenActive="page">Rooms</a>
-            
-        <a id = "about-link" routerLink = "/aboutus" routerLinkActive = "active-about-us" ariaCurrentWhenActive = "page">About Us</a>
-            
-        <a id = "contact-link" routerLink = "/contact" routerLinkActive = "active-contact" ariaCurrentWhenActive= "page">Contact Us</a> 
+                <a id = "home-link" routerLink= "/home" routerLinkActive = "active-home" ariaCurrentWhenActive="page">Home
+                        <div class="image-overlay">
+                                <img src="https://lh3.googleusercontent.com/pw/AIL4fc94p3o5z8lSnH0F_bBo-yenzW4K0UojJFpdA4-stsm1xELbCf02AywqJFheLWWjBDPzzVcThRJWha-sMHGBZSqrtcH85LBvaDEPZkbWgSWrsEbS4w=w2400">
+                        </div>
+                </a>
+
+                <a id = "rooms-link" routerLink = "/rooms" routerLinkActive = "active-rooms" ariaCurrentWhenActive="page">Rooms
+                        <div class="image-overlay">
+                                <img src="https://lh3.googleusercontent.com/pw/AIL4fc94p3o5z8lSnH0F_bBo-yenzW4K0UojJFpdA4-stsm1xELbCf02AywqJFheLWWjBDPzzVcThRJWha-sMHGBZSqrtcH85LBvaDEPZkbWgSWrsEbS4w=w2400">
+                        </div>
+                </a>
+
+                <a id = "about-link" routerLink = "/aboutus" routerLinkActive = "active-about-us" ariaCurrentWhenActive = "page">About
+                        <div class="image-overlay">
+                                <img src="https://lh3.googleusercontent.com/pw/AIL4fc94p3o5z8lSnH0F_bBo-yenzW4K0UojJFpdA4-stsm1xELbCf02AywqJFheLWWjBDPzzVcThRJWha-sMHGBZSqrtcH85LBvaDEPZkbWgSWrsEbS4w=w2400">
+                        </div>
+                </a>
+
+                <a id = "contact-link" routerLink = "/contact" routerLinkActive = "active-contact" ariaCurrentWhenActive= "page">Contact
+                        <div class="image-overlay">
+                                <img src="https://lh3.googleusercontent.com/pw/AIL4fc94p3o5z8lSnH0F_bBo-yenzW4K0UojJFpdA4-stsm1xELbCf02AywqJFheLWWjBDPzzVcThRJWha-sMHGBZSqrtcH85LBvaDEPZkbWgSWrsEbS4w=w2400">
+                        </div>
+                </a> 
+
+                <a id = "separate-links">|</a>
+
+                <a id = "instagram-link" routerLink = "instagram" routerLinkActive = "active-instagram">
+                        <i class = "gg-instagram"></i></a>
+                <a id = "google-link" routerLink = "google" routerLinkActive = "active-google">
+                        <i class = "gg-google"></i></a>
+	        <a id = "twitter-link" routerLink = "twitter" routerLinkActive = "active-twitter">
+	                <i class = "gg-twitter"></i></a>
         </nav>
 </div>
 

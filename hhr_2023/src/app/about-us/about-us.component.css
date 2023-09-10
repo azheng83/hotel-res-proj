@@ -1,15 +1,13 @@
 
 h2 {
+    font-size: 3vw;
     text-align: center;
-    padding-top: 28px; 
-    font-style: italic; 
+    padding-top: 15vh; 
 }
 
 .about-us {
     font-family: "Work Sans", sans-serif; 
-    background-color: white;
     text-align: center;
-    line-height: 4vh;
     margin-left: 13vw;
     margin-right: 13vw;
     margin-top: 10vh;
@@ -22,15 +20,29 @@ h3 {
 h4 {
     margin-top: 10vh;
     font-weight: bolder;
-    font-style: italic;
-    font-size: large;
+    font-size: 2vw;
+    margin-bottom: 1vh;
+}
+
+p {
+    font-size: 1.3vw;
+}
+
+.button-container {
+    color: black;
 }
 
 #redirect-button {
-    font-size: large;
+    font-size: 1.5vw;
     background-color: white;
+    border: .15vw solid black;
     border-radius: 2vw;
     padding: 1vh 2vw;
     margin-top: 3vh;
     margin-bottom: 5vh;
+}
+
+#redirect-button:hover {
+    background-color: #90a6c7;
+    transition: 0.3s ease;
 }

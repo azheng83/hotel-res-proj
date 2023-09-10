@@ -1,0 +1,51 @@
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+li {
+    margin-bottom: 1.5vh;
+}
+
+.rooms-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 2vw;
+}
+
+#rooms-title {
+    margin-bottom: 3vh;
+}
+
+#rooms-descrip {
+    margin-top: 2vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 7vh;
+}
+
+.room-features,
+.room-services {
+    font-size: 1.4vw;
+}
+
+#features-title,
+#services-title {
+    margin-bottom: 5vh;
+}
+
+#features-list,
+#services-list {
+    margin-top: 1vh;
+    list-style-type: none;
+}
+

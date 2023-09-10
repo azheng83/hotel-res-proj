@@ -1,8 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
-body {
-    margin: 0;
+html * {
+    font-family: "Work Sans", sans-serif;
 }
 
-nav {
+body {
     margin: 0;
 }

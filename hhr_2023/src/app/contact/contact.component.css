@@ -5,20 +5,21 @@
 }
 
 .contact-descrip {
-    margin-top: 15vh;
+    padding-top: 15vh;
 }
 
 #contact-title {
-    font-size: 1.7vw;
+    font-size: 2.5vw;
     font-weight: bolder;
-    font-style: italic;
 }
 
 #contact-para {
     margin-top: 5vh;
     margin-left: 15vw;
     margin-right: 15vw;
-    line-height: 4vh;
+    line-height: 3vh;
+    font-size: 1.3vw;
+    text-align: center;
 }
 
 h3 {
@@ -31,20 +32,36 @@ h3 {
     margin-top: 8vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    font-size: 1vw;
 }
 
-#name-field {
+.name-container {
     display: flex;
 }
 
+#first-field,
+#last-field {
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
 input {
-    margin-left: 2vw;
     border: black .12vw solid;
     border-radius: 2vw;
-    padding: .5vw;
-    padding-left: 2vw;
+    font-size: large;
+}
+
+#first-field input,
+#last-field input {
+    padding: 1vh 1.2vw;
+    margin-right: 1vw;
+}
+
+#first-field input {
+    margin-left: 1vw;
 }
 
 #email-input, 
@@ -64,10 +81,11 @@ input {
 
 label {
     margin-right: 15vw;
+    font-size: 1.2vw;
 }
 
 #sbmt-btn {
-    font-size: 1.2vw;
+    font-size: 1vw;
     display: flex;
     justify-content: center;
     align-items: center;
