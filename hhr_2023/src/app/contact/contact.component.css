@@ -43,20 +43,20 @@ h3 {
 #first-field,
 #last-field {
     display: flex;
-    margin-left: 0;
-    margin-right: 0;
 }
 
 
 input {
     border: black .12vw solid;
     border-radius: 2vw;
-    font-size: large;
+    font-size: 1.3vw;
+
 }
 
 #first-field input,
 #last-field input {
-    padding: 1vh 1.2vw;
+    padding: 1vh 0.1vw;
+    padding-left: 0.5vw;
     margin-right: 1vw;
 }
 
@@ -97,4 +97,9 @@ label {
     padding: 1vh 1.5vw;
     background-color: white;
     border-color: black;
+}
+
+#sbmt-btn:hover {
+    transition: 0.3s ease;
+    background-color: #90a6c7;
 }

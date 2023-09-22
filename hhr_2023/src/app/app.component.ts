@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {UsersService} from './get-transport-api.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'hhr_2023';
+  title: string = 'Call Transport Api';
+  data: any;
+
+  constructor(private api:UsersService) {
+
+  }
+  ngOnInit() {
+    this.api.apiCall().subscribe((data)=> {
+      console.warn('get api data', data);
+      this.data = data;
+    })
+  }
 }
